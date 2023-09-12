@@ -39,8 +39,10 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     # Third Party
     "djmoney",
+    "rest_framework",
     # Local
     "items.apps.ItemsConfig",
+    "apis.apps.ApisConfig",
 ]
 
 MIDDLEWARE = [
